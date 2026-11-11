@@ -1,0 +1,14 @@
+FirstName = input("Enter first name: ")
+LastName = input("Enter last name: ")
+Section = input("Enter section: ")
+FavSubj = input("Enter favorite subject: ")
+NameCode = FirstName + " " + LastName
+CharCount = len(NameCode)
+
+print()
+
+print(f"Name: {FirstName.title()} {LastName.title()}")
+print(f"Name Code: {NameCode.upper()}")
+print(f"Section {Section.upper()}")
+print(f"Favorite Subject: {FavSubj.title()}")
+print(f"Character Count: {CharCount}")
